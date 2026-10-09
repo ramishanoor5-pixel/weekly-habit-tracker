@@ -42,13 +42,6 @@ weekly-habit-tracker/
 └── README.md
 ```
 
-## Future Improvements
-
-* Save habits and completion status using localStorage.
-* Add weekly progress statistics.
-* Improve the mobile and tablet layout.
-* Add a progress bar to visualize habit completion.
-
 ## Author
 
 **Hafiza Ramisha Noor**
