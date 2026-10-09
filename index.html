@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weekly Habit Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Weekly Habit Tracker</h1>
+      <p class="subtitle">Build better habits, one day at a time</p>
+    </header>
+
+    <div class="date-info">
+      <div class="year" id="currentYear">2026</div>
+      <div class="month" id="currentMonth">October</div>
+    </div>
+
+    <!-- Add Habit Form -->
+    <section class="add-habit card">
+      <input type="text" id="habitInput" placeholder="Enter a new habit (e.g. Drink water)" />
+      <button id="addHabitBtn" class="btn primary">Add Habit</button>
+    </section>
+
+    <section class="card grid-card">
+      <div class="grid-header" id="gridHeader">
+      </div>
+
+      <div id="habitGrid" class="habit-grid">
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
